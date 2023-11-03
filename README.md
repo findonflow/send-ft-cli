@@ -11,16 +11,16 @@ Either clone down this repo manually or copy paste the raw contents of those fil
 ## Prerequisites
 
  - you need flow.cli installed https://developers.flow.com/tools/flow-cli/install
-  - if on mac install homebrew first https://brew.sh/
+   - if on mac install homebrew first https://brew.sh/
 
  - you have to verify that the accounts block user in flow.json is correct. 
-  - modify the address field to be your address
-  - lookup your keys here https://www.flowdiver.io/account/0x9f085985e3012a1d?tab=keys, replacing the address with your address
-  - ensure that the index/signing and hash are correct
+   - modify the address field to be your address
+   - lookup your keys here https://www.flowdiver.io/account/0x9f085985e3012a1d?tab=keys, replacing the address with your address
+   - ensure that the index/signing and hash are correct
 
  - make the environment know about your private key on the environment as USER_PK. 
-  - example: `export USER_PK=abc`
-  - never never ever share your PK with anybody
+   - example: `export USER_PK=abc`
+   - never never ever share your PK with anybody
 
 ## sending flow
 
