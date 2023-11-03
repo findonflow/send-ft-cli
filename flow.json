@@ -1,0 +1,24 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testing": "127.0.0.1:3569",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "4ece61ca2b6771e440877949482eb8b65f34cce946f937e5d60c87a3da620e4f"
+    },
+    "user": {
+      "address": "0x9f085985e3012a1d",
+      "key": {
+        "type": "hex",
+        "index": 0,
+        "signatureAlgorithm": "ECDSA_secp256k1",
+        "hashAlgorithm": "SHA2_256",
+        "privateKey": "${USER_PK}"
+      }
+    }
+  }
+}
