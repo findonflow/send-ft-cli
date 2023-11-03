@@ -6,6 +6,8 @@ In this repo there are two files:
  - flow.json: the configuration of your account
  - sendFt.cdc: the transaction we will send
 
+Either clone down this repo manually or copy paste the raw contents of those files into a directory on your computer
+
 ## Prerequisites
 
  - you need flow.cli installed https://developers.flow.com/tools/flow-cli/install
